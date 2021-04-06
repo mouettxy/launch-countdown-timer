@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&display=swap');
+
+:root {
+  /* grayish-blue */
+  --color-primary: hsl(237, 18%, 59%);
+  /* soft-red */
+  --color-secondary: hsl(345, 95%, 68%);
+  /* dark-desaturated */
+  --color-white: hsl(0, 0%, 100%);
+  /* very-dark-blue */
+  --color-dark-blue: hsl(235, 16%, 14%);
+  /* very-dark */
+  --color-dark: hsl(234, 17%, 12%);
+
+  --font-size: 14px;
+
+  --font-family: 'Red Hat Text', sans-serif;
+
+  --icon-facebook: url('../images/icon-facebook.png');
+  --icon-instagram: url('../images/icon-instagram.svg');
+  --icon-pinterest: url('../images/icon-pinterest.svg');
+
+  --img-hills: url('../images/bg-stars.svg');
+  --img-stars: url('../images/bg-stars.svg');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: var(--font-family);
+  }
+
+  html {
+    font-size: var(--font-size);
+  }
+}
