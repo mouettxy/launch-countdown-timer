@@ -6,6 +6,8 @@
   /* soft-red */
   --color-secondary: hsl(345, 95%, 68%);
   /* dark-desaturated */
+  --color-desaturated-blue: hsl(236, 21%, 26%);
+
   --color-white: hsl(0, 0%, 100%);
   /* very-dark-blue */
   --color-dark-blue: hsl(235, 16%, 14%);
@@ -16,11 +18,11 @@
 
   --font-family: 'Red Hat Text', sans-serif;
 
-  --icon-facebook: url('../images/icon-facebook.png');
+  --icon-facebook: url('../images/icon-facebook.svg');
   --icon-instagram: url('../images/icon-instagram.svg');
   --icon-pinterest: url('../images/icon-pinterest.svg');
 
-  --img-hills: url('../images/bg-stars.svg');
+  --img-hills: url('../images/pattern-hills.svg');
   --img-stars: url('../images/bg-stars.svg');
 }
 

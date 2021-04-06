@@ -21,8 +21,17 @@ module.exports = {
         stars: 'var(--img-stars)',
       },
 
+      fontSize: {
+        'ultra-xs': '.6rem',
+      },
+
+      backgroundPosition: {
+        'left-85': '80% 0%',
+      },
+
       colors: {
         'dark-blue': 'var(--color-dark-blue)',
+        'desaturated-blue': 'var(--color-desaturated-blue)',
         primary: 'var(--color-primary)',
         secondary: 'var(--color-secondary)',
         white: 'var(--color-white)',
