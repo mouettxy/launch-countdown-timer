@@ -16,6 +16,12 @@ export default defineComponent({
 
 <template>
   <div class="flex h-8 space-x-8">
-    <a v-for="icon in icons" :key="icon" href="#" :class="{ [icon]: true }" class="block w-8 h-8 bg-no-repeat"></a>
+    <a
+      v-for="icon in icons"
+      :key="icon"
+      href="#"
+      :class="{ [icon]: true }"
+      class="block w-8 h-8 bg-no-repeat bg-cover lg:w-5 lg:h-5"
+    ></a>
   </div>
 </template>
