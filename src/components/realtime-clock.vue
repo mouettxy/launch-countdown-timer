@@ -2,7 +2,7 @@
 import { defineComponent, ref } from 'vue'
 import moment, { Moment } from 'moment'
 
-const TIME_TO = moment('24.04.2021', 'DD.MM.YYYY').startOf('day')
+const TIME_TO = moment().add(7, 'days').startOf('day')
 
 export default defineComponent({
   name: 'realtime-clock',
