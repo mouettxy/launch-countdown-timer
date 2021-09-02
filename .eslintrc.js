@@ -10,7 +10,12 @@ module.exports = {
   extends: ['plugin:prettier/recommended', 'plugin:vue/vue3-essential'],
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
     'array-element-newline': [
       'error',
       {
